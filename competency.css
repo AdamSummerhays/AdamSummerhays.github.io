@@ -1,0 +1,182 @@
+body {
+    background-color: #585959;
+    color:#F2F2F2;
+    height: auto;
+    width: auto;
+}
+
+header {
+    
+    background-image: linear-gradient(to left,#333333,#8c8c8c);
+    color: #F2F2F2;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 165px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 150%;
+    float: left;
+    width: 150px; 
+    min-height: 200px;
+    max-height: 200px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FFFFFF;
+}
+nav a:visited {
+    color: #FFFFFF;
+}
+nav a:hover {
+    color: lightslategray;
+    transition-duration: 2s;
+}
+
+
+main {
+    background-color: #585959;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-left: 165px;
+    padding-top: 6px;
+    padding-left: 6px;
+    text-align: left;
+}
+
+footer {
+    background-image: linear-gradient(to left,#333333,#8c8c8c);
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 165px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+h3 {
+    font-weight: bold;
+}
+
+hr {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#wrapper {
+    background-color: #8c8c8c;
+    background-image: url(images/pcb_bannerbl.jpg);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000033;
+    background-repeat: no-repeat;
+}
+
+.navhome {
+    background-color: #585959;
+    width: auto;
+    height: auto;
+    min-height: 0px;
+    max-height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.navservice {
+    background-color: #585959;
+    width: auto;
+    min-height: 0px;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.navvisit {
+    background-color: #585959;
+    width: auto;
+    min-height: 0px;
+    max-height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#navcolumn {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    justify-content: center;
+    float: left;
+
+}
+
+table {
+    font-size: large;
+    border-radius: 2px;
+    border-color: #8c8c8c;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+th {
+    border-radius: 2px;
+    border-color: #8c8c8c;
+    border-style: solid;
+    padding: 0.5em;
+}
+td {
+    border-radius: 2px;
+    border-color: #8c8c8c;
+    border-style: solid;
+    padding: 0.5em;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+    
+}
+ input, textarea {
+    display: block;
+    margin-bottom: 20px;
+ }
+ input[type="checkbox"] {
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 140px
+ }
+
+
+ input[type="submit"] {
+    margin-left: 140px;
+ }
+ 
+ #image{
+    background-image: url(images/buisness-front.jpg);
+    background-repeat: no-repeat;
+    float: right;
+    padding-top: 5px;  
+    padding-right: 5px;
+    padding-bottom: 5px;
+    height: 400px;
+    width: 75%;
+
+ }
